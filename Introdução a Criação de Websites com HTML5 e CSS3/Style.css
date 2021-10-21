@@ -1,5 +1,6 @@
 body {
   background:#f7f7f7;
+  font-family: Verdana;
 }
 
 #title, .subtitle, .post_title {
@@ -7,8 +8,18 @@ body {
 }
 
 .photo {
-  border: 3px solid #505050;
-  border-radius: 50%;
+  border: 1px solid #505050;
+  border-radius: 40%;
+}
+
+#title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: line-through;
+  color: #505050
 }
 
 .post_title {
@@ -23,7 +34,7 @@ body {
   padding: 15px;
   border: 3px solid #505050;
   border-bottom: 15px;
-  border-radius: 5px;
+  border-radius: 5px 10px;
 }
 
 .post_image {
@@ -33,4 +44,14 @@ body {
 .post_content {
   margin: 0;
   margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.contacts_list {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.contacts_list li a {
+  text-decoration: none;
 }
