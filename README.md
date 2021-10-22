@@ -1,2 +1,2 @@
 # Repositorio-Dio-desafios
-Repositorio dos desafios do bootcsmp Dio Eduzz fullstack
+Repositorio dos desafios do bootcamp Dio Eduzz fullstack e de cursos.
